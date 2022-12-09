@@ -1,8 +1,10 @@
 #include <stdio.h>
+#include <unistd.h>
+
 /**
- * main - print a line of code not using printf or puts
+ * main - prints exactly and that peace of art is useful
  * code by TotorBelieve
- * Return: 1
+ * Return: Always 1 (success)
 */
 int main(void)
 {
