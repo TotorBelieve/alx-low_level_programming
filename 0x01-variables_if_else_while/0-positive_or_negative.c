@@ -1,12 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+#include <stdio.h>
 
 /**
  * main - print a random num
  *
  * Return: 0
-*/
+ */
 int main(void)
 {
 	int n;
