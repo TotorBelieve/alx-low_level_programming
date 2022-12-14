@@ -8,18 +8,27 @@
  */
 int main(void)
 {
-	int c = 0;
-	int sum = 0;
+	int i, z = 0;
 
-	while (c < 1024)
+	while (i < 1024)
 	{
-		if (c % 3 == 0 || c % 5 == 0)
+		if ((i % 3 == 0) || (i % 5 == 0))
 		{
-			sum += c;
+			z += i;
 		}
-
-		c++;
+		i++;
 	}
-	print("%i\n", sum);
+	printf("%d\n", z);
 	return (0);
 }
+
+
+
+
+
+
+
+
+
+
+
